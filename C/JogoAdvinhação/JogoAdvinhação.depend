@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1659404693 source:c:\users\red_n\documents\1-alura\curso-c\jogoadvinhação\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
