@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <windows.h>
 
 void telaInicial();
 int dificuldade();
@@ -10,6 +11,12 @@ int menuJogo(int dificuldade, int tentativas, int i);
 
 
 int main(){
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+    CONSOLE_SCREEN_BUFFER_INFO consoleInfo;
+    WORD saved_attributes;
+
+    GetConsoleScreenBufferInfo(hConsole, &consoleInfo);
+    saved_attributes = consoleInfo.wAttributes;
 
     int segundos = time(0);
     srand(segundos);
@@ -41,6 +48,7 @@ int main(){
 
         if(acertou){
             system("cls");
+            SetConsoleTextAttribute(hConsole, 6);
             printf("\n\n");
             printf("             OOOOOOOOOOO               \n");
             printf("         OOOOOOOOOOOOOOOOOOO           \n");
@@ -57,6 +65,7 @@ int main(){
             printf("      OOOOOO   OOOOOOOOO   OOOOOO      \n");
             printf("         OOOOOO         OOOOOO         \n");
             printf("             OOOOOOOOOOOO              \n");
+            SetConsoleTextAttribute(hConsole, 7);
             printf("\n\n");
             break;
         } else if(maior) {
@@ -73,18 +82,28 @@ int main(){
         printf("VOCE ACERTOU EM %d TENTATIVAS!\n", totalTentativas);
     } else if(acertou == 0){
         system("cls");
+        SetConsoleTextAttribute(hConsole, 70);
         printf("VOCE PERDEU! TENTE NOVAMENTE!\n");
         printf("\n\n");
-        printf("       \\|/ ____ \\|/    \n");
+        printf("       \\|/ ____ \\|/     \n");
         printf("        @~/ ,. \\~@      \n");
-        printf("       /_( \\__/ )_\\    \n");
+        printf("       /_( \\__/ )_\\     \n");
         printf("          \\__U_/        \n");
+        SetConsoleTextAttribute(hConsole, 7);
         printf("\n\n");
     }
 
 }
 
 void telaInicial(){
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+    CONSOLE_SCREEN_BUFFER_INFO consoleInfo;
+    WORD saved_attributes;
+
+    GetConsoleScreenBufferInfo(hConsole, &consoleInfo);
+    saved_attributes = consoleInfo.wAttributes;
+
+    SetConsoleTextAttribute(hConsole, 3);
     printf("|*************************|\n");
     printf("          P  /_\\  P       \n");
     printf("         /_\\_|_|_/_\\     \n");
@@ -96,6 +115,7 @@ void telaInicial(){
     printf("|*************************|\n");
     printf("|       BEM VINDO AO      |\n");
     printf("|    JOGO DE ADVINHACAO   |\n");
+    SetConsoleTextAttribute(hConsole, 7);
 }
 
 
@@ -126,6 +146,12 @@ void nivel(int nivel){
 }
 
 int definindoTentativas(int nivel){
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+    CONSOLE_SCREEN_BUFFER_INFO consoleInfo;
+    WORD saved_attributes;
+
+    GetConsoleScreenBufferInfo(hConsole, &consoleInfo);
+    saved_attributes = consoleInfo.wAttributes;
 
     int numeroTentativas = 0;
     switch(nivel){
@@ -140,10 +166,12 @@ int definindoTentativas(int nivel){
             break;
         default:
             printf("\nOPCAO INVALIDA! FINALIZANDO O PROGRAMA!\n\n");
+            SetConsoleTextAttribute(hConsole, 13);
             printf("     \\|/ ____ \\|/    \n");
             printf("      @~/ ,. \\~@      \n");
             printf("     /_( \\__/ )_\\    \n");
             printf("        \\__U_/        \n");
+            SetConsoleTextAttribute(hConsole, 7);
             system("pause");
     }
     system("cls");
