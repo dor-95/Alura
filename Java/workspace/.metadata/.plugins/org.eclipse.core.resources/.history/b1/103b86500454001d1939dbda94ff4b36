@@ -1,0 +1,11 @@
+package bytebankHerdadoConta;
+
+public class CalculadorDeImposto {
+	
+	private double imposto;
+	
+	private void registra(Tributavel t) {
+		double valor = t.getValorImposto();
+	}
+
+}

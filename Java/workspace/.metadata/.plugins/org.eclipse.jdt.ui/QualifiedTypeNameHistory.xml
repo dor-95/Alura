@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="bytebankEncapsulado.Conta"/>
+    <fullyQualifiedTypeName name="bytebankHerdadoConta.ContaPoupanca"/>
+    <fullyQualifiedTypeName name="bytebankHerdado.SistemaInterno"/>
+    <fullyQualifiedTypeName name="bytebankHerdado.Administrador"/>
+    <fullyQualifiedTypeName name="bytebankHerdado.FuncionarioAutenticavel"/>
+    <fullyQualifiedTypeName name="bytebankHerdado.AutenticacaoUtil"/>
+    <fullyQualifiedTypeName name="bytebankHerdadoConta.CalculadorImposto"/>
+    <fullyQualifiedTypeName name="bytebankHerdadoConta.ContaCorrente"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="bytebankHerdadoConta.SeguroDeVida"/>
+    <fullyQualifiedTypeName name="bytebankHerdadoConta.CalculadorDeImposto"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="aluraEnums.Prioridade"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,10 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="bytebankHerdadoConta.Conta"><rhs name\="bytebankHerdadoConta.ContaPoupanca"/><rhs name\="bytebankHerdadoConta.ContaCorrente"/></lhs><lhs name\="bytebankHerdadoConta.ContaCorrente"><rhs name\="bytebankHerdadoConta.ContaCorrente"/></lhs><lhs name\="bytebankHerdadoConta.ContaPoupanca"><rhs name\="bytebankHerdadoConta.ContaPoupanca"/></lhs><lhs name\="bytebankHerdado.SistemaInterno"><rhs name\="bytebankHerdado.SistemaInterno"/></lhs><lhs name\="bytebankHerdado.Funcionario"><rhs name\="bytebankHerdado.Administrador"/></lhs><lhs name\="bytebankHerdado.Administrador"><rhs name\="bytebankHerdado.Administrador"/></lhs><lhs name\="bytebankHerdado.AutenticacaoUtil"><rhs name\="bytebankHerdado.AutenticacaoUtil"/></lhs><lhs name\="bytebankHerdadoConta.CalculadorImposto"><rhs name\="bytebankHerdadoConta.CalculadorImposto"/></lhs><lhs name\="bytebankHerdadoConta.CalculadorDeImposto"><rhs name\="bytebankHerdadoConta.CalculadorDeImposto"/></lhs><lhs name\="java.lang.Runnable"><rhs name\="java.lang.Thread"/></lhs><lhs name\="java.lang.Thread"><rhs name\="java.lang.Thread"/></lhs><lhs name\="java.lang.Enum"><rhs name\="aluraEnums.Prioridade"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="aluraEnums.Prioridade"/></lhs><lhs name\="aluraEnums.Prioridade"><rhs name\="aluraEnums.Prioridade"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

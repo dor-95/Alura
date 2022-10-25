@@ -1,0 +1,7 @@
+package aluraEnums;
+
+public enum Prioridade {
+	
+	MIN, NORMAL, MAX;
+
+}

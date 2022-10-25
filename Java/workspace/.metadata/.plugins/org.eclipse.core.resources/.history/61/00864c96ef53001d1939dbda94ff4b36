@@ -1,0 +1,10 @@
+package bytebankHerdado;
+
+//Gerente é um Funcionario, Gerente herda da classe Funcionario
+public class Gerente extends Funcionario {
+	
+	public double getBonificacao(){
+		System.out.println("Chamando o método de bonificacao do Gerente");
+		return super.getSalario();
+	}
+}

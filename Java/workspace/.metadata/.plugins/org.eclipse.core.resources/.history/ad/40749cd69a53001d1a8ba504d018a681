@@ -1,0 +1,9 @@
+package bytebankHerdado;
+
+public class SistemaInterno {
+	
+	public void autentica(Gerente g) {
+		g.autentica(senha);
+	}
+
+}
