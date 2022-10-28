@@ -1,0 +1,9 @@
+package javaPilha;
+
+public class MyException extends Exception {
+	
+	public MyException(String msg) throws MyException {
+		super(msg);
+	}
+
+}

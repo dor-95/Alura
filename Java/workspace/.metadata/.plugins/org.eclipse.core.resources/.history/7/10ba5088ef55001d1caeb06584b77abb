@@ -1,0 +1,12 @@
+package javaPilha;
+
+public class TestaContaComExcexaoChecked {
+	
+	public static void main(String[] args) throws {
+		
+		Conta conta = new Conta();
+		conta.deposita();
+		
+	}
+
+}

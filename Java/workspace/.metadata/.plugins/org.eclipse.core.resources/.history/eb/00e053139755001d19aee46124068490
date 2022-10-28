@@ -1,0 +1,5 @@
+package javaPilha;
+
+public class MyException {
+
+}

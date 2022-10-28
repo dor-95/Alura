@@ -7,10 +7,13 @@
     <fullyQualifiedTypeName name="bytebankHerdado.FuncionarioAutenticavel"/>
     <fullyQualifiedTypeName name="bytebankHerdado.AutenticacaoUtil"/>
     <fullyQualifiedTypeName name="bytebankHerdadoConta.CalculadorImposto"/>
-    <fullyQualifiedTypeName name="bytebankHerdadoConta.ContaCorrente"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="bytebankHerdadoConta.SeguroDeVida"/>
     <fullyQualifiedTypeName name="bytebankHerdadoConta.CalculadorDeImposto"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="aluraEnums.Prioridade"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="javaPilha.MyException"/>
+    <fullyQualifiedTypeName name="bytebankHerdadoConta.ContaCorrente"/>
+    <fullyQualifiedTypeName name="bytebankHerdadoConta.SaldoInsuficienteException"/>
 </qualifiedTypeNameHistroy>
