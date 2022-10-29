@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1661216755 source:c:\users\red_n\documents\1-alura\curso-c\c ii\jogo_forca\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"Jogo_Forca.h"
+
+1661215706 c:\users\red_n\documents\1-alura\curso-c\c ii\jogo_forca\jogo_forca.h
+
+1661216755 source:c:\users\red_n\documents\3-alura\1-cursos\curso-c\c ii\jogo_forca\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"Jogo_Forca.h"
+
+1661215706 c:\users\red_n\documents\3-alura\1-cursos\curso-c\c ii\jogo_forca\jogo_forca.h
+
