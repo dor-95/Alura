@@ -1,0 +1,15 @@
+package excecoesConexao;
+
+public class TesteConexao {
+	
+	public static void main(String[] args) {
+		
+		try {
+			Conexao con = new Conexao();
+		} catch (Exception ex) {
+			System.out.println("Deu erro na conexao");
+		}
+		
+	}
+
+}

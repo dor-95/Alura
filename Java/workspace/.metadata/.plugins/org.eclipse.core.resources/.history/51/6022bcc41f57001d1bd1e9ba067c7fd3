@@ -1,0 +1,11 @@
+package bytebankHerdadoConta;
+
+public class TesteContrutorException {
+	
+	public static void main(String[] args) {
+		
+		ContaCorrente cc = new ContaCorrente(-88, 1230);
+		
+	}
+
+}

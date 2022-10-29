@@ -14,6 +14,9 @@
     <fullyQualifiedTypeName name="aluraEnums.Prioridade"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="javaPilha.MyException"/>
-    <fullyQualifiedTypeName name="bytebankHerdadoConta.ContaCorrente"/>
     <fullyQualifiedTypeName name="bytebankHerdadoConta.SaldoInsuficienteException"/>
+    <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
+    <fullyQualifiedTypeName name="bytebankHerdadoConta.ContaCorrente"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
 </qualifiedTypeNameHistroy>
